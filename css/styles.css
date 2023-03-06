@@ -1,3 +1,78 @@
+body{
+    overflow-x:hidden !important;
+}
+
+/* Navbar */
+header {
+    background-color: black !important;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+  header .navbar-wrapper {
+    max-width: 1368px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
+  header .navbar-wrapper .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .navbar-wrapper .navbar-content .logo {
+    font-size: 2.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+  }
+  header .navbar-wrapper .navbar-content .nav-links {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  header .navbar-wrapper .navbar-content .nav-links li {
+    list-style-type: none;
+  }
+  header .navbar-wrapper .navbar-content .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1.25rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  header .navbar-wrapper .navbar-content .nav-links li a::after {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: 0.3s ease all;
+  }
+  header .navbar-wrapper .navbar-content .nav-links li a:hover::after {
+    width: 100%;
+  }
+  header .navbar-wrapper .navbar-content .nav-links button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    margin: 0 1rem;
+    border-radius: 6px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+  }
+  header .navbar-wrapper .navbar-content i {
+    display: none;
+    color: #fff;
+    cursor: pointer;
+  } 
+  
 /* Slider Arrows */
    .aroow-left{
 	width: 35px;
@@ -204,23 +279,20 @@
     border-radius: 10px;
     color: #0cace9;
 }
+
+
 /* Hero Section */
 section{
     display: flex;
     justify-content: center;
 }
 .hero-section {
-
-    position: relative; 
-    height: calc(100vh - 60px);
-
-    left: 260px;
-    width: calc(100% - 260px);
+    height: 100vh;
+    position: relative;
     transition: all 0.5s ease;
-  }
+}
   .sidebar.close ~ .hero-section {
     left: 78px;
     width: calc(100% - 78px);
   }
 /*  */
-
