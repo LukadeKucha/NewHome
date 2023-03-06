@@ -1,0 +1,226 @@
+/* Slider Arrows */
+   .aroow-left{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+	right: -30px;
+	bottom: 0px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+	 -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.aroow-left:hover{
+	
+	color:#4eadfd;
+}
+.aroow-right{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+	left: 15px;
+	bottom: 0px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+	 -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.aroow-right:hover{
+
+	color:#4eadfd;
+}
+/* Slider Home button */
+.auto_flex{
+	margin: auto;
+	height: 250px;
+}
+
+.sst-btn-test_2:hover{
+  color: #fff
+}
+.sst-btn-test_2::before {
+    content: "";
+    position: absolute;
+    width: 137px;
+    height: 86px;
+    background-color: rgba(66,195,245,0.2);
+    border: 3px solid #42c3f5;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -11;
+     left: 10px;
+    top: 10px;
+}
+.sst-btn-test_2:hover::before{
+	 background-color: #42c3f5;
+    border: 3px solid #42c3f5;
+      left: 0;
+    top: 0;
+    
+}
+.sst-btn-test_2 img {
+    transform: rotate(-15deg);
+    margin-top: 24px;
+    margin-left: 15px;
+    position: absolute;
+    width: 27px;
+}
+.sst-btn-test_2 p{
+    transform: rotate(-15deg);
+    margin-top: 44px;
+    margin-left: -28px;
+    text-align: center;
+    font-size: 17px;
+    width: 200px;
+   
+    font-family: 'bpg_nino_medium_capsregular';
+    font-weight: 700;
+}
+/* 
+
+
+*/
+.sliderimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transition: all 1.6s;
+    -moz-transition: all 1.6s;
+    -o-transition: all 1.6s;
+    transition: all 1.6s;
+    z-index: -1;
+}
+.header-overlay_x {
+    background-image: linear-gradient(rgba(1,4,45, 0.6),rgba(1,4,45,0.3));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#ul {
+    width: 200px;
+    text-align: center;
+    bottom: 40px;
+    z-index: 2;
+    left: 6.2%;
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+}
+#ul li {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'bpg_nino_medium_capsregular';
+    font-weight: bold;
+    color: #fff;
+}
+.header_text {
+    width: 1020px;
+    height: 100vh;
+    margin-left: 8%;
+    display: flex;
+}
+.header_text_auto {
+    display: flex;
+}
+.sst-title-big {
+    display: block;
+    position: relative;
+    font-size: 65px;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    color: #fff;
+    text-align: left;
+    font-family: "Regular2";
+}
+.sst-title-big b {
+    -webkit-text-stroke-color: #eee77f;
+    color: transparent;
+}
+.sst-title-big span {
+    color: #eee77f;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: #eee77f;
+    font-family: "Regular2";
+    font-weight: bold;
+    font-size: 31px;
+    top: 80px;
+    width: 800px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sst-btn-test_2 {
+    width: 120px;
+    height: 69px;
+    color: #fae499;
+    background-color: #fff;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    animation: pulse 2s infinite;
+    transform: rotate(15deg);
+    border-radius: 10px;
+    color: #0cace9;
+}
+/* Hero Section */
+section{
+    display: flex;
+    justify-content: center;
+}
+.hero-section {
+
+    position: relative; 
+    height: calc(100vh - 60px);
+
+    left: 260px;
+    width: calc(100% - 260px);
+    transition: all 0.5s ease;
+  }
+  .sidebar.close ~ .hero-section {
+    left: 78px;
+    width: calc(100% - 78px);
+  }
+/*  */
+
