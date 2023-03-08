@@ -19,15 +19,7 @@
   <title>NewHome</title>
 </head>
 
-<body>
-  <div class="socials">
-    <ul>
-        <li> <a href=""><i style="font-size: 36px; cursor: pointer;" class='bx bxl-facebook-circle' ></i></a> </li>
-        <li> <a href=""><i style="font-size: 36px;" class='bx bxl-instagram-alt' ></i></a> </li>
-
-    </ul>
-    </ul>
-</div> 
+<body style="background-color: #cecece;">
   <!-- Carousel -->
   <section class="hero-section">
     <header>
@@ -37,9 +29,9 @@
           <ul class="nav-links">
             <li><a href="#">მთავარი</a></li>
             <li><a href="#project">პროექტები</a></li>
-            <li><a href="#">ბინები</a></li>
+            <!-- <li><a href="#">ბინები</a></li> -->
             <li><a href="#">ჩვენს შესახებ</a></li>
-            <li><a href="#">კონტაქტი</a></li>
+            <li><a href="#contact">კონტაქტი</a></li>
           </ul>
           <i class='bx bx-menu' id="burger"></i>
         </nav>
@@ -76,8 +68,8 @@
 
       <div class="header_text">
         <div class="header_text_auto">
-          <div class="auto_flex aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500"
-            data-aos-delay="1000" data-aos-easing="ease">
+          <div class="auto_flex aos-init aos-animate" data-aos="fade-down" data-aos-duration="1200"
+            data-aos-delay="800" data-aos-easing="ease">
             <div class="sst-title-big">
               შენ ირჩევ <b>ჩვენ ვაშენებთ</b> <span>შენზე მორგებული გადახდის პირობებით!</span> <br>
             </div><br>
@@ -97,7 +89,7 @@
   <!-- პროექტები -->
 
   <section id="project">   
-    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-easing="ease"
+    <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" data-aos-easing="ease"
       class="title aos-init aos-animate">პროექტები</div>
 
     <div class="project_border">
@@ -155,17 +147,60 @@
 
   </section>
 
+  <!-- Parters -->
+
+  <!-- About -->
+  <section id="about">
+  <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" data-aos-easing="ease"
+class="title aos-init aos-animate">ჩვენს შესახებ</div>
+  <div class="container">
+    <ul class="accordion">
+       <li class="accordion__item">
+          <input type="checkbox" checked>
+          <i class="accordion__arrow"></i>
+          <h2 class="accordion__title"><b>2008 წლიად დღემდე</b></h2>
+          <br>
+          <p class="accordion__content">დეველოპერული კომპანია ენენ ჯგუფი ფუნქციონირებს 2008 წლიდან და ითვლის ათზე მეტ მსხვილ პროექტს.</p>
+       </li>
+       <li class="accordion__item">
+          <input type="checkbox" checked>
+          <i class="accordion__arrow"></i>
+          <h2 class="accordion__title"><b>კომპანიის ზრდა</b></h2>
+          <br>
+          <p class="accordion__content"> ამ ხნის განმავლობაში კომპანიის ზრდა მიმდინარეობს წარმატებით, რაც ჩვენი მიმდინარე თუ დასრულებული მშენებლობებით აისახება. </p>
+       </li>
+       <li class="accordion__item">
+          <input type="checkbox" checked>
+          <i class="accordion__arrow"></i>
+          <h2 class="accordion__title"><b>კლიენტები და ჩვენ</b></h2>
+          <br>
+          <p class="accordion__content">
+            მთავარი მოთხოვნა, რასაც ჩვენს კლიენტებს ვთავაზობთ მათზე მორგებული პირობებია, უსაფრთხოება, ხარისხი, კომფორტი; ეს კი მხარეებს შორის ნდობის და სიმშვიდის გარანტს იძლევა.
+          </p>
+       </li>
+       <li class="accordion__item">
+          <input type="checkbox" checked>
+          <i class="accordion__arrow"></i>
+          <h2 class="accordion__title"><b>ჩვენი პროექტები</b></h2>
+          <br>
+          <p class="accordion__content"></p>
+       </li>
+    </ul>
+ </div>
+</section>
+
 <!-- Contact -->
-<div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-easing="ease"
-class="title aos-init aos-animate">კონტაქტი</div>
-  <section class="contact-sec sec-pad">
- 
-    <div class="container">
+
+  <section class="contact-sec sec-pad" id="contact"> 
+    <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" data-aos-easing="ease"
+class="contact-title aos-init aos-animate">კონტაქტი</div>
+<div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" data-aos-easing="ease"
+class="contact-p aos-init aos-animate">დაგვიტოვეთ ნომერი ან მოგვწერეთ მეილზე</div>
+    <div class="container" style="margin-bottom:0px;">
       <div class="row">
         <div class="col-md-6">
           <div class="contact-detail">
-            <h1 class="section-title">Contact us</h1>
-  
+            <!-- <h1 class="section-title">Contact us</h1>   -->
             <ul class="contact-ul">
               <li> <i class='bx bx-current-location' ></i>
                 შალვა ნუცუბიძის ქ. N75ა </li>
@@ -193,27 +228,26 @@ class="title aos-init aos-animate">კონტაქტი</div>
           <form action="#" class="contFrm" method="POST">
             <div class="row">
               <div class="col-sm-6">
-                <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+                <input type="text" name="name" placeholder="სახელი" class="inptFld" required />
               </div>
   
               <div class="col-sm-6">
-                <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+                <input type="email" name="email" placeholder="მეილი" class="inptFld" required />
               </div>
   
               <div class="col-sm-6">
-                <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+                <input type="tel" name="phone" placeholder="ტელეფონის ნომერი" class="inptFld" required />
               </div>
-  
               <div class="col-sm-6">
-                <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                <input type="text" name="sub" placeholder="სათაური" class="inptFld" required />
               </div>
   
               <div class="col-12">
-                <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+                <textarea class="inptFld" rows="" cols="" placeholder="მესიჯი..."  required></textarea>
               </div>
   
-              <div class="col-12">
-                <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+              <div class="col-12" style="display: flex;">
+                <input type="submit" name="submit" value="გაზგზავნა" class="inptBtn" />
               </div>
             </div>
           </form>
