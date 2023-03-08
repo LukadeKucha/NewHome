@@ -183,7 +183,7 @@
     text-align: center;
     bottom: 20px;
     z-index: 2;
-    left: 1.2%;
+    right: 2%;
 }
 
 
@@ -442,7 +442,7 @@
 }
 #ul {
    
-    left: -4%;
+    left: 50%;
 }
 .company_text {
     font-size: 20px;

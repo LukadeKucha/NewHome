@@ -207,3 +207,15 @@ const navLinks = document.querySelector('.nav-links');
 burger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 })
+
+// Navbar color change
+const navbar = document.querySelector('.navbar-wrapper');
+const section = document.getElementById('project');
+window.addEventListener('scroll', function () {
+    if (window.scrollY > section.offsetTop) {
+        navbar.classList.add('bg-color-change');
+    }
+    else {
+        navbar.classList.remove('bg-color-change');
+    }
+})
