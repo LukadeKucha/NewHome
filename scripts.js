@@ -1,12 +1,15 @@
-
+// loader
+window.addEventListener("load", function () {
+    const loader = document.getElementById("loader");
+    loader.style.display = "none";
+  });
+  
 // Slider
-
 var ListLi = document.querySelectorAll('#ul li');
 var raodenoba = ListLi.length;
 localStorage.slittyui = 0;
 var toNumber = null;
 var j = 0;
-
 function forward() {
     toNumber = parseInt(localStorage.slittyui);
     var logo1 = document.querySelectorAll(".sliderimage");
@@ -18,10 +21,8 @@ function forward() {
             ListLi[j].style.backgroundColor = "#fff";
         }
         localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#42c3f5";
+        ListLi[toNumber].style.backgroundColor = "#fbff8c";
         localStorage.slittyui = toNumber;
-
-
 
         for (var j = 0; j < ListLi.length; j++) {
             logo1[j].style.opacity = "0";
@@ -34,7 +35,7 @@ function forward() {
             ListLi[j].style.backgroundColor = "#fff";
         }
         localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#42c3f5";
+        ListLi[toNumber].style.backgroundColor = "#fbff8c";
         localStorage.slittyui = toNumber;
 
 
@@ -58,7 +59,7 @@ function back() {
             ListLi[j].style.backgroundColor = "#fff";
         }
         localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#42c3f5";
+        ListLi[toNumber].style.backgroundColor = "#fbff8c";
         localStorage.slittyui = toNumber;
 
 
@@ -74,7 +75,7 @@ function back() {
             ListLi[j].style.backgroundColor = "#fff";
         }
         localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#42c3f5";
+        ListLi[toNumber].style.backgroundColor = "#fbff8c";
         localStorage.slittyui = toNumber;
 
 
@@ -104,14 +105,14 @@ var gffjjh = setInterval(function autoChange() {
     if (toNumber < raodenoba - 1) {
         toNumber += 1;
         localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#42c3f5";
+        ListLi[toNumber].style.backgroundColor = "#fbff8c";
         localStorage.slittyui = toNumber;
 
     }
     else {
         toNumber = 0;
         localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#42c3f5";
+        ListLi[toNumber].style.backgroundColor = "#fbff8c";
     }
 
     for (var j = 0; j < ListLi.length; j++) {
@@ -147,13 +148,13 @@ function myFunction() {
         if (toNumber < raodenoba - 1) {
             toNumber += 1;
             localStorage.slittyui = toNumber;
-            ListLi[toNumber].style.backgroundColor = "#42c3f5";
+            ListLi[toNumber].style.backgroundColor = "#fbff8c";
             localStorage.slittyui = toNumber;
         }
         else {
             toNumber = 0;
             localStorage.slittyui = toNumber;
-            ListLi[toNumber].style.backgroundColor = "#42c3f5";
+            ListLi[toNumber].style.backgroundColor = "#fbff8c";
         }
         for (var j = 0; j < ListLi.length; j++) {
 
@@ -187,7 +188,7 @@ function changeSlider(el) {
     for (var j = 0; j < ListLi.length; j++) {
         ListLi[j].style.backgroundColor = "#fff";
     }
-    el.style.backgroundColor = "#42c3f5";
+    el.style.backgroundColor = "#fbff8c";
     localStorage.slittyui = elItem;
 
     for (var j = 0; j < ListLi.length; j++) {

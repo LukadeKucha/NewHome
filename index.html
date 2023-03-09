@@ -11,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
   <link rel="stylesheet" href="./css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,6 +24,7 @@
 <!-- <body style="background-color: #cecece; #4486bb"> -->
 
 <body style="background-color: #e1e1e1;">
+  <div id="loader"></div>
   <!-- Carousel -->
   <section class="hero-section" id="hero-section">
     <header>
@@ -41,28 +42,15 @@
         </nav>
       </div>
     </header>
-    <div class="sliderimage" style="background-image: url(./img/banner-1.png); opacity: 0;">
-
-    </div>
-    <div class="sliderimage" style="background-image: url(./img/banner-2.png); opacity: 1;">
-
-    </div>
-    <div class="sliderimage" style="background-image: url(./img/banner-2.png); opacity: 1;">
-
-    </div>
+    <div class="sliderimage" style="background-image: url(./img/banner-1.png); opacity: 0;"></div>
+    <div class="sliderimage" style="background-image: url(./img/banner-2.png); opacity: 1;"></div>
+    <div class="sliderimage" style="background-image: url(./img/banner-2.png); opacity: 1;"></div>
     <div class="header-overlay_x">
       <ul id="ul" onmouseover="myStopFunction()" onmouseout="myFunction()">
-
-
         <li onclick="changeSlider(this)" data-items="0" style="background-color: rgb(255, 255, 255);"></li>
-
         <li onclick="changeSlider(this)" data-items="1" style="background-color: rgb(66, 195, 245);"></li>
-
         <li onclick="changeSlider(this)" data-items="2" style="background-color: rgb(255, 255, 255);"></li>
-
-
         <div class="aroow-left" onclick="forward()">
-
           <i class='bx bx-right-arrow-alt'></i>
         </div>
         <div class="aroow-right" onclick="back()">
@@ -71,14 +59,14 @@
       </ul>
 
       <div class="header_text">
-        <div class="header_text_auto">
-          <div class="auto_flex aos-init aos-animate" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="800"
-            data-aos-easing="ease">
-            <div class="sst-title-big">
+        <div class="hero-text">
+          <div class="hero-main-text aos-init aos-animate" data-aos="fade-down" data-aos-duration="1200"
+            data-aos-delay="800" data-aos-easing="ease">
+            <div class="main-title">
               შენ ირჩევ <b>ჩვენ ვაშენებთ</b> <span>შენზე მორგებული გადახდის პირობებით!</span> <br>
             </div><br>
             <a href="/choose-flat/1/">
-              <div data-href="" class="sst-btn-test_2">
+              <div data-href="" class="main-button">
                 <img src="https://maza.ge/img/icons/house.png" alt="house">
                 <p>აირჩიეთ ბინა</p>
               </div>
@@ -93,20 +81,19 @@
   <!-- პროექტები -->
 
   <section id="project">
-    <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" data-aos-easing="ease"
+    <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="150" data-aos-easing="ease"
       class="title aos-init aos-animate">პროექტები</div>
-
     <div class="project_border">
       <div class="pro">
         <!-- მიმდინარე 1 -->
         <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
           data-aos-easing="ease">
           <div class="project_1" style="background-image: url('./img/front\ night\ 2\ .jpg')">
-            <div class="project_1_tr_color">
+            <div class="project-color">
               <div class="Ongoing_project">
                 სრულდება 20 თვეში
               </div>
-              <ul class="href_button">
+              <ul class="project-button">
                 <li><a href="./pages/project-dighomi.html">
                     პროექტის შესახებ </a>
                 </li>
@@ -117,7 +104,6 @@
                   </a>
                 </li>
               </ul>
-
               <div class="pr-location">
                 <i class='bx bx-current-location'></i> გორგასლის #40
               </div>
@@ -129,11 +115,11 @@
         <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
           data-aos-easing="ease">
           <div class="project_1" style="background-image: url('./img/front\ night\ 2\ .jpg')">
-            <div class="project_1_tr_color">
+            <div class="project-color">
               <div class="Ongoing_project">
                 სრულდება 20 თვეში
               </div>
-              <ul class="href_button">
+              <ul class="project-button">
                 <li><a href="./pages/project-dighomi.html">
                     პროექტის შესახებ </a>
                 </li>
@@ -159,12 +145,12 @@
         <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
           data-aos-easing="ease">
           <div class="project_1" style="background-image: url('./img/2\ copy.png')">
-            <div class="project_1_tr_color">
+            <div class="project-color">
               <div class="Ongoing_project">
                 დასრულებული პროექტი
 
               </div>
-              <ul class="href_button">
+              <ul class="project-button">
                 <li>
                   <a href="/Gallery/2/">
                     პროექტის შესახებ </a>
@@ -184,12 +170,12 @@
         <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
           data-aos-easing="ease">
           <div class="project_1" style="background-image: url('./img/2\ copy.png')">
-            <div class="project_1_tr_color">
+            <div class="project-color">
               <div class="Ongoing_project">
                 დასრულებული პროექტი
 
               </div>
-              <ul class="href_button">
+              <ul class="project-button">
                 <li>
                   <a href="/Gallery/2/">
                     პროექტის შესახებ </a>
@@ -211,12 +197,12 @@
         <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
           data-aos-easing="ease">
           <div class="project_1" style="background-image: url('./img/2\ copy.png')">
-            <div class="project_1_tr_color">
+            <div class="project-color">
               <div class="Ongoing_project">
                 დასრულებული პროექტი
 
               </div>
-              <ul class="href_button">
+              <ul class="project-button">
                 <li>
                   <a href="/Gallery/2/">
                     პროექტის შესახებ </a>
@@ -236,12 +222,12 @@
         <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
           data-aos-easing="ease">
           <div class="project_1" style="background-image: url('./img/2\ copy.png')">
-            <div class="project_1_tr_color">
+            <div class="project-color">
               <div class="Ongoing_project">
                 დასრულებული პროექტი
 
               </div>
-              <ul class="href_button">
+              <ul class="project-button">
                 <li>
                   <a href="/Gallery/2/">
                     პროექტის შესახებ </a>
@@ -263,55 +249,57 @@
   </section>|
 
   <!-- Parters -->
-
-  <!-- About -->
   <section id="about">
-    <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" data-aos-easing="ease"
-      class="title aos-init aos-animate">ჩვენს შესახებ</div>
-    <div class="container">
-      <ul class="accordion">
-        <li class="accordion__item">
-          <input type="checkbox" checked>
-          <i class="accordion__arrow"></i>
-          <h2 class="accordion__title"><b>2008 წლიად დღემდე</b></h2>
-          <br>
-          <p class="accordion__content">დეველოპერული კომპანია ენენ ჯგუფი ფუნქციონირებს 2008 წლიდან და ითვლის ათზე მეტ
-            მსხვილ პროექტს.</p>
-        </li>
-        <li class="accordion__item">
-          <input type="checkbox" checked>
-          <i class="accordion__arrow"></i>
-          <h2 class="accordion__title"><b>კომპანიის ზრდა</b></h2>
-          <br>
-          <p class="accordion__content"> ამ ხნის განმავლობაში კომპანიის ზრდა მიმდინარეობს წარმატებით, რაც ჩვენი
-            მიმდინარე თუ დასრულებული მშენებლობებით აისახება. </p>
-        </li>
-        <li class="accordion__item">
-          <input type="checkbox" checked>
-          <i class="accordion__arrow"></i>
-          <h2 class="accordion__title"><b>კლიენტები და ჩვენ</b></h2>
-          <br>
-          <p class="accordion__content">
-            მთავარი მოთხოვნა, რასაც ჩვენს კლიენტებს ვთავაზობთ მათზე მორგებული პირობებია, უსაფრთხოება, ხარისხი, კომფორტი;
-            ეს კი მხარეებს შორის ნდობის და სიმშვიდის გარანტს იძლევა.
-          </p>
-        </li>
-        <li class="accordion__item">
-          <input type="checkbox" checked>
-          <i class="accordion__arrow"></i>
-          <h2 class="accordion__title"><b>ჩვენი პროექტები</b></h2>
-          <br>
-          <p class="accordion__content"></p>
-        </li>
-      </ul>
-    </div>
-  </section>
+    <div class="about-image aos-init aos-animate" style="background-image: url('./img/banner-2.png');"
+      data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400" data-aos-easing="ease">
+      <div class="image_color">
 
+        <div class="company aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600"
+          data-aos-easing="ease">
+          <img src="/img/icons/logo.png" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="800"
+            data-aos-easing="ease" class="aos-init aos-animate">
+          <div class="company_text aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500"
+            data-aos-delay="1000" data-aos-easing="ease">
+            დეველოპერული <b>კომპანია<b>
+              </b></b></div><b><b>
+            </b></b>
+        </div><b><b>
+          </b></b>
+      </div><b><b>
+        </b></b>
+    </div><b><b>
+        <div class="about-text_1 aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500"
+          data-aos-delay="1200" data-aos-easing="ease">
+          <div class="color-white_1">
+            <br>
+            <pre>ჩვენს შესახებ</pre>
+            <div style="height: 20px;">
+            </div>
+            <p>
+              დეველოპერული კომპანია ენენ ჯგუფი ფუნქციონირებს 2008 წლიდან და ითვლის ათზე მეტ მსხვილ პროექტს. ამ ხნის
+              განმავლობაში კომპანიის ზრდა მიმდინარეობს წარმატებით, რაც ჩვენი მიმდინარე თუ დასრულებული მშენებლობებით
+              აისახება.
+              <br>
+              მთავარი მოთხოვნა, რასაც ჩვენს კლიენტებს ვთავაზობთ კი არის:
+              <br>
+              • მათზე მორგებული პირობები
+              <br>
+              • უსაფრთხოება
+              <br>
+              • ხარისხი
+              <br>
+              • კომფორტი
+              <br>
+              • მაქსიმალური კომფორტი
+            </p>
+          </div>
+        </div>
+  </section>
   <!-- Partner -->
   <section class="client">
     <div class="container">
       <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" data-aos-easing="ease"
-      class="contact-title aos-init aos-animate">პარტნიორები</div>
+        class="contact-title aos-init aos-animate">პარტნიორები</div>
       <div class="row">
         <div class="carousel-client">
           <div class="slide"> <img src="./img/TBC.png"></div>
