@@ -5,23 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
   <link rel="stylesheet" href="./css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/responsive.css">
+
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <title>NewHome</title>
 </head>
 
-<!-- <body style="background-color: #cecece;"> -->
+<!-- <body style="background-color: #cecece; #4486bb"> -->
 
-<body style="background-color: #4486bb;">
+<body style="background-color: #e1e1e1;">
   <!-- Carousel -->
   <section class="hero-section" id="hero-section">
     <header>
@@ -32,7 +34,7 @@
             <li><a href="#">მთავარი</a></li>
             <li><a href="#project">პროექტები</a></li>
             <!-- <li><a href="#">ბინები</a></li> -->
-            <li><a href="#">ჩვენს შესახებ</a></li>
+            <li><a href="#about">ჩვენს შესახებ</a></li>
             <li><a href="#contact">კონტაქტი</a></li>
           </ul>
           <i class='bx bx-menu' id="burger"></i>
@@ -117,35 +119,39 @@
               </ul>
 
               <div class="pr-location">
-                <i class='bx bx-current-location'></i> ფარნავაზ მეფის გამზირი 21
+                <i class='bx bx-current-location'></i> გორგასლის #40
               </div>
             </div>
           </div>
         </div>
 
         <!-- მიმდინარე 2 -->
-        <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
+        <div class="project aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
           data-aos-easing="ease">
-          <div class="project_1" style="background-image: url('./img/ორთაჭალა.jpg')">
+          <div class="project_1" style="background-image: url('./img/front\ night\ 2\ .jpg')">
             <div class="project_1_tr_color">
               <div class="Ongoing_project">
-                დასრულებული პროექტი
-
+                სრულდება 20 თვეში
               </div>
               <ul class="href_button">
-                <li>
-                  <a href="/Gallery/2/">
+                <li><a href="./pages/project-dighomi.html">
                     პროექტის შესახებ </a>
                 </li>
                 <li></li>
-
+                <li>
+                  <a href="/choose-flat/1/">
+                    აირჩიეთ ბინა
+                  </a>
+                </li>
               </ul>
+
               <div class="pr-location">
-                <i class='bx bx-current-location'></i> გორგასლის #40              </div>
+                <i class='bx bx-current-location'></i> გორგასლის #40
+              </div>
             </div>
           </div>
-
         </div>
+
       </div>
 
       <div class="pro">
@@ -167,7 +173,7 @@
 
               </ul>
               <div class="pr-location">
-                <i class='bx bx-current-location'></i> ფარნავაზ მეფის გამზირი 21
+                <i class='bx bx-current-location'></i> გორგასლის #40
               </div>
             </div>
           </div>
@@ -192,7 +198,7 @@
 
               </ul>
               <div class="pr-location">
-                <i class='bx bx-current-location'></i> ფარნავაზ მეფის გამზირი 21
+                <i class='bx bx-current-location'></i> გორგასლის #40
               </div>
             </div>
           </div>
@@ -219,7 +225,7 @@
 
               </ul>
               <div class="pr-location">
-                <i class='bx bx-current-location'></i> ფარნავაზ მეფის გამზირი 21
+                <i class='bx bx-current-location'></i> გორგასლის #40
               </div>
             </div>
           </div>
@@ -244,7 +250,7 @@
 
               </ul>
               <div class="pr-location">
-                <i class='bx bx-current-location'></i> ფარნავაზ მეფის გამზირი 21
+                <i class='bx bx-current-location'></i> გორგასლის #40
               </div>
             </div>
           </div>
@@ -252,7 +258,7 @@
         </div>
       </div>
     </div>
-  
+
 
   </section>|
 
@@ -301,6 +307,24 @@
     </div>
   </section>
 
+  <!-- Partner -->
+  <section class="client">
+    <div class="container">
+      <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" data-aos-easing="ease"
+      class="contact-title aos-init aos-animate">პარტნიორები</div>
+      <div class="row">
+        <div class="carousel-client">
+          <div class="slide"> <img src="./img/TBC.png"></div>
+          <div class="slide"> <img src="./img/TBC.png"></div>
+          <div class="slide"> <img src="./img/TBC.png"></div>
+          <div class="slide"> <img src="./img/TBC.png"></div>
+          <div class="slide"> <img src="./img/TBC.png"></div>
+          <div class="slide"> <img src="./img/TBC.png"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact -->
 
   <section class="contact-sec sec-pad" id="contact">
@@ -312,7 +336,6 @@
       <div class="row">
         <div class="col-md-6">
           <div class="contact-detail">
-            <!-- <h1 class="section-title">Contact us</h1>   -->
             <ul class="contact-ul">
               <li> <i class='bx bx-current-location'></i>
                 შალვა ნუცუბიძის ქ. N75ა </li>

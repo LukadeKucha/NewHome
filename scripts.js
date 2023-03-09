@@ -211,6 +211,7 @@ burger.addEventListener('click', () => {
 // Navbar color change
 const navbar = document.querySelector('.navbar-wrapper');
 const section = document.getElementById('project');
+const projectsection = document.getElementById('project-hero');
 window.addEventListener('scroll', function () {
     if (window.scrollY > section.offsetTop) {
         navbar.classList.add('bg-color-change');
@@ -219,3 +220,10 @@ window.addEventListener('scroll', function () {
         navbar.classList.remove('bg-color-change');
     }
 })
+$('.carousel-client').bxSlider({
+    auto: true,
+    slideWidth: 234,
+    minSlides: 2,
+    maxSlides: 5,
+    controls: false
+});
