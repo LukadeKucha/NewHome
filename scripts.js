@@ -10,84 +10,84 @@ var raodenoba = ListLi.length;
 localStorage.slittyui = 0;
 var toNumber = null;
 var j = 0;
-function forward() {
-    toNumber = parseInt(localStorage.slittyui);
-    var logo1 = document.querySelectorAll(".sliderimage");
-    var ListLi = document.querySelectorAll('#ul li');
+// function forward() {
+//     toNumber = parseInt(localStorage.slittyui);
+//     var logo1 = document.querySelectorAll(".sliderimage");
+//     var ListLi = document.querySelectorAll('#ul li');
 
-    if (toNumber < raodenoba - 1) {
-        toNumber += 1;
-        for (var j = 0; j < ListLi.length; j++) {
-            ListLi[j].style.backgroundColor = "#fff";
-        }
-        localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#fbff8c";
-        localStorage.slittyui = toNumber;
+//     if (toNumber < raodenoba - 1) {
+//         toNumber += 1;
+//         for (var j = 0; j < ListLi.length; j++) {
+//             ListLi[j].style.backgroundColor = "#fff";
+//         }
+//         localStorage.slittyui = toNumber;
+//         ListLi[toNumber].style.backgroundColor = "#fbff8c";
+//         localStorage.slittyui = toNumber;
 
-        for (var j = 0; j < ListLi.length; j++) {
-            logo1[j].style.opacity = "0";
-        }
-        logo1[toNumber].style.opacity = "1";
-    }
-    else {
-        toNumber = 0;
-        for (var j = 0; j < ListLi.length; j++) {
-            ListLi[j].style.backgroundColor = "#fff";
-        }
-        localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#fbff8c";
-        localStorage.slittyui = toNumber;
-
-
-
-        for (var j = 0; j < ListLi.length; j++) {
-            logo1[j].style.opacity = "0";
-        }
-        logo1[toNumber].style.opacity = "1";
-    }
-
-
-}
-function back() {
-    toNumber = parseInt(localStorage.slittyui);
-    var logo1 = document.querySelectorAll(".sliderimage");
-    var ListLi = document.querySelectorAll('#ul li');
-
-    if (toNumber != 0) {
-        toNumber -= 1;
-        for (var j = 0; j < ListLi.length; j++) {
-            ListLi[j].style.backgroundColor = "#fff";
-        }
-        localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#fbff8c";
-        localStorage.slittyui = toNumber;
+//         for (var j = 0; j < ListLi.length; j++) {
+//             logo1[j].style.opacity = "0";
+//         }
+//         logo1[toNumber].style.opacity = "1";
+//     }
+//     else {
+//         toNumber = 0;
+//         for (var j = 0; j < ListLi.length; j++) {
+//             ListLi[j].style.backgroundColor = "#fff";
+//         }
+//         localStorage.slittyui = toNumber;
+//         ListLi[toNumber].style.backgroundColor = "#fbff8c";
+//         localStorage.slittyui = toNumber;
 
 
 
-        for (var j = 0; j < ListLi.length; j++) {
-            logo1[j].style.opacity = "0";
-        }
-        logo1[toNumber].style.opacity = "1";
-    }
-    else {
-        toNumber = ListLi.length - 1;
-        for (var j = 0; j < ListLi.length; j++) {
-            ListLi[j].style.backgroundColor = "#fff";
-        }
-        localStorage.slittyui = toNumber;
-        ListLi[toNumber].style.backgroundColor = "#fbff8c";
-        localStorage.slittyui = toNumber;
+//         for (var j = 0; j < ListLi.length; j++) {
+//             logo1[j].style.opacity = "0";
+//         }
+//         logo1[toNumber].style.opacity = "1";
+//     }
+
+
+// }
+// function back() {
+//     toNumber = parseInt(localStorage.slittyui);
+//     var logo1 = document.querySelectorAll(".sliderimage");
+//     var ListLi = document.querySelectorAll('#ul li');
+
+//     if (toNumber != 0) {
+//         toNumber -= 1;
+//         for (var j = 0; j < ListLi.length; j++) {
+//             ListLi[j].style.backgroundColor = "#fff";
+//         }
+//         localStorage.slittyui = toNumber;
+//         ListLi[toNumber].style.backgroundColor = "#fbff8c";
+//         localStorage.slittyui = toNumber;
 
 
 
-        for (var j = 0; j < ListLi.length; j++) {
-            logo1[j].style.opacity = "0";
-        }
-        logo1[toNumber].style.opacity = "1";
-    }
+//         for (var j = 0; j < ListLi.length; j++) {
+//             logo1[j].style.opacity = "0";
+//         }
+//         logo1[toNumber].style.opacity = "1";
+//     }
+//     else {
+//         toNumber = ListLi.length - 1;
+//         for (var j = 0; j < ListLi.length; j++) {
+//             ListLi[j].style.backgroundColor = "#fff";
+//         }
+//         localStorage.slittyui = toNumber;
+//         ListLi[toNumber].style.backgroundColor = "#fbff8c";
+//         localStorage.slittyui = toNumber;
 
 
-}
+
+//         for (var j = 0; j < ListLi.length; j++) {
+//             logo1[j].style.opacity = "0";
+//         }
+//         logo1[toNumber].style.opacity = "1";
+//     }
+
+
+// }
 
 
 

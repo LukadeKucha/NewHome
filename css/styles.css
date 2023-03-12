@@ -5,6 +5,7 @@ body {
 * {
   scroll-behavior: smooth;
 }
+
 /* loader */
 #loader {
   position: fixed;
@@ -32,6 +33,7 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -177,6 +179,7 @@ header .navbar-wrapper .navbar-content i {
   margin: auto;
   height: 250px;
 }
+
 /* 
 
 
@@ -210,7 +213,7 @@ header .navbar-wrapper .navbar-content i {
   text-align: center;
   bottom: 40px;
   z-index: 2;
-  right: 15%;
+  right: 46%;
   position: absolute;
   list-style: none;
   cursor: pointer;
@@ -220,7 +223,6 @@ header .navbar-wrapper .navbar-content i {
   width: 20px;
   height: 20px;
   background-color: #fff;
-  border-radius: 20px;
   display: inline-block;
   margin-left: 20px;
   font-size: 24px;
@@ -253,7 +255,8 @@ header .navbar-wrapper .navbar-content i {
   -webkit-text-stroke-color: #fff;
   color: #fff;
   text-align: left;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif; ;
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  ;
 }
 
 .main-title b {
@@ -265,7 +268,7 @@ header .navbar-wrapper .navbar-content i {
   color: #eee77f;
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: #eee77f;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
   font-weight: bold;
   font-size: 31px;
   top: 80px;
@@ -396,7 +399,7 @@ section {
 }
 
 .project-button li a:hover {
-  color: #fae499;
+  color: #00ffff;
 }
 
 .project-button li:nth-child(1) {
@@ -560,10 +563,12 @@ input {
 }
 
 .contact-sec {
+  color: white;
   flex-direction: column;
   align-items: center;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #8995b2;
 }
 
 .contact-sec .contact-ul li,
@@ -582,7 +587,7 @@ input {
 }
 
 .contact-detail a {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 
@@ -792,6 +797,7 @@ section.client .section-title {
   -webkit-text-stroke-color: #eee77f;
   color: transparent;
 }
+
 .about-text_1 {
   border-radius: 30px;
   width: 450px;
@@ -1044,7 +1050,7 @@ section.client .section-title {
     }
 
     #project {
-      height: 1033px;
+      height: 1150px;
     }
 
     .hero-section {
@@ -1072,6 +1078,7 @@ section.client .section-title {
     .project {
       margin: 20px 34px;
     }
+
     .main-title {
       font-size: 38px;
     }
@@ -1107,7 +1114,7 @@ section.client .section-title {
       text-align: center;
       bottom: 20px;
       z-index: 2;
-      right: 2%;
+      right: 35%;
     }
 
 
@@ -1260,9 +1267,15 @@ section.client .section-title {
     }
 
     #project {
-      height: 358vh;
+      margin-top: 10%;
+      height: 214vh;
       width: 100%;
+  }
 
+    }
+
+    .pro {
+      height: 44%;
     }
 
     .Feedback_color_blur {
@@ -1414,7 +1427,7 @@ section.client .section-title {
 
     #ul {
 
-      left: 50%;
+      left: 30%;
     }
 
     .company_text {
@@ -1482,7 +1495,7 @@ section.client .section-title {
       font-size: 15px;
     }
   }
-}
+
 
 /* navbar */
 
@@ -1521,7 +1534,7 @@ section.client .section-title {
   header .navbar-wrapper .navbar-content .nav-links.active {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     height: 100vh;
-   background-color: #e1e1e1;
+    background-color: #e1e1e1;
     transform: translateX(0%);
   }
 
