@@ -253,7 +253,7 @@ header .navbar-wrapper .navbar-content i {
   -webkit-text-stroke-color: #fff;
   color: #fff;
   text-align: left;
-  font-family: "Regular2";
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; ;
 }
 
 .main-title b {
@@ -265,7 +265,7 @@ header .navbar-wrapper .navbar-content i {
   color: #eee77f;
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: #eee77f;
-  font-family: "Regular2";
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
   font-weight: bold;
   font-size: 31px;
   top: 80px;
