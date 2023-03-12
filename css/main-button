@@ -177,56 +177,6 @@ header .navbar-wrapper .navbar-content i {
   margin: auto;
   height: 250px;
 }
-
-.main-button:hover {
-  color: #fff
-}
-
-.main-button::before {
-  content: "";
-  position: absolute;
-  width: 137px;
-  height: 86px;
-  background-color: rgba(66, 195, 245, 0.2);
-  border: 3px solid #42c3f5;
-  border-radius: 10px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: -11;
-  left: 10px;
-  top: 10px;
-}
-
-.main-button:hover::before {
-  background-color: #42c3f5;
-  border: 3px solid #42c3f5;
-  left: 0;
-  top: 0;
-
-}
-
-.main-button img {
-  transform: rotate(-15deg);
-  margin-top: 24px;
-  margin-left: 15px;
-  position: absolute;
-  width: 27px;
-}
-
-.main-button p {
-  transform: rotate(-15deg);
-  margin-top: 44px;
-  margin-left: -28px;
-  text-align: center;
-  font-size: 17px;
-  width: 200px;
-
-  font-family: 'bpg_nino_medium_capsregular';
-  font-weight: 700;
-}
-
 /* 
 
 
@@ -326,30 +276,6 @@ header .navbar-wrapper .navbar-content i {
   padding: 10px;
   border-radius: 5px;
 }
-
-.main-button {
-  width: 120px;
-  height: 69px;
-  color: #fae499;
-  background-color: #fff;
-  font-weight: bold;
-  margin-top: 100px;
-  font-size: 16px;
-  line-height: 25px;
-  position: relative;
-  padding: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  animation: pulse 2s infinite;
-  transform: rotate(15deg);
-  border-radius: 10px;
-  color: #0cace9;
-}
-
 
 /* Hero Section */
 section {
@@ -1146,31 +1072,6 @@ section.client .section-title {
     .project {
       margin: 20px 34px;
     }
-
-    .main-button {
-      width: 96px;
-      height: 55px;
-    }
-
-    .main-button::before {
-      content: "";
-      position: absolute;
-      width: 112px;
-      height: 69px;
-    }
-
-    .main-button img {
-      margin-top: 10px;
-      margin-left: 9px;
-    }
-
-    .main-button p {
-      margin-top: 31px;
-      margin-left: -44px;
-      font-size: 14px;
-
-    }
-
     .main-title {
       font-size: 38px;
     }
@@ -1187,10 +1088,6 @@ section.client .section-title {
 
     .hero-main-text {
       height: 163px;
-    }
-
-    .main-button {
-      margin-top: 50px;
     }
 
     #ul li {
@@ -1274,10 +1171,6 @@ section.client .section-title {
       color: #eee77f;
       top: 24px;
       width: 500px;
-    }
-
-    .main-button {
-      margin-top: 68px;
     }
 
     .main-title {
@@ -1462,10 +1355,6 @@ section.client .section-title {
       top: 15px;
       height: 20px;
       width: 220px;
-    }
-
-    .main-button {
-      margin-top: 78px;
     }
 
     .hero-main-text {
