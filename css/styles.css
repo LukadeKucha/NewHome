@@ -128,7 +128,7 @@ header .navbar-wrapper .navbar-content i {
 }
 
 /* Slider Arrows */
-.aroow-left {
+/* .aroow-left {
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -172,7 +172,7 @@ header .navbar-wrapper .navbar-content i {
 .aroow-right:hover {
 
   color: #4eadfd;
-}
+} */
 
 /* Slider Home button */
 .hero-main-text {
