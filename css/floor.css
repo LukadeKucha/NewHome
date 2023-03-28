@@ -20,10 +20,10 @@ a {
 
 .Room {
     position: absolute;
-    top: 5%;
-    left: 3.0%;
-    right: 10px;
-    bottom: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(21, 43, 67, 0.7);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;

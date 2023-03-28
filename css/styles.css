@@ -1270,231 +1270,231 @@ section.client .section-title {
       margin-top: 10%;
       height: 214vh;
       width: 100%;
+    }
+
   }
 
-    }
-
-    .pro {
-      height: 44%;
-    }
-
-    .Feedback_color_blur {
-      width: 350px;
-      margin-left: 5%;
-      margin-top: 0px;
-      height: 423px;
-    }
-
-    .Feedback_text {
-      font-size: 50px;
-      width: 300px;
-      margin-top: 15px;
-    }
-
-    .Feedback_text pre {
-      font-size: 13px;
-    }
-
-    #Feedback {
-      height: 423px;
-    }
-
-    .forms {
-      width: 317px !important;
-      margin-top: 10px !important;
-    }
-
-    .Partners_image {
-      width: 92px;
-      top: 20px;
-    }
-
-    .Partners_image ul {
-      right: 28px;
-      margin-top: 26px;
-    }
-
-    .Partners_border a>img {
-      width: 240px
-    }
+  .pro {
+    height: 44%;
   }
 
-  @media only screen and (max-width: 650px) {
-
-    #Feedback,
-    .Feedback_color_blur {
-      height: 370px;
-    }
-
-    .Feedback_color_blur {
-      margin-left: 3%;
-    }
-
-    .Feedback_text {
-      font-size: 30px;
-    }
-
-    .Feedback_text pre {
-      padding: 0px 0px;
-      margin-top: -32px;
-    }
-
-    .header_text {
-      width: 330px;
-      margin-left: 3%;
-      overflow: hidden;
-    }
-
-    .slider_box {
-      margin-left: 5%
-    }
-
-    .main-title {
-      font-size: 35px;
-    }
-
-    .Project_contents h1 {
-      margin-top: -50px;
-    }
-
-    .main-title span {
-      color: #eee77f;
-      width: 250px;
-      font-size: 21px;
-      top: 85px;
-    }
-
-    .main-title span:after {
-      top: 15px;
-      height: 20px;
-      width: 220px;
-    }
-
-    .hero-main-text {
-      height: 235px;
-    }
-
-    .title {
-      width: 360px;
-      margin: 14px auto;
-    }
-
-    .project_border {
-      width: 370px;
-      overflow: hidden;
-      margin: 0px auto;
-    }
-
-    .about-text_1 {
-      width: 388px;
-    }
-
-    .color-white_1 p {
-      font-size: 14px !important;
-      width: 336px;
-    }
-
-    .color-white_1 pre {
-
-      margin-top: 62px;
-    }
-
-    #Partners {
-      width: 330px;
-    }
-
-    .Partners_border a>img {
-      width: 200px;
-    }
+  .Feedback_color_blur {
+    width: 350px;
+    margin-left: 5%;
+    margin-top: 0px;
+    height: 423px;
   }
 
-  @media only screen and (max-width: 520px) {
-
-    .Project_arr_button {
-
-      top: -250px;
-
-    }
-
-    .Project_contents h1 {
-      margin-top: -90px;
-    }
-
-    #Company {
-      width: 99%;
-      overflow: hidden;
-    }
-
-    #ul {
-
-      left: 30%;
-    }
-
-    .company_text {
-      font-size: 20px;
-    }
-
-    #about {
-      width: 99%;
-    }
-
-    .about-text_1 {
-      width: 349px;
-    }
-
-    .company {
-      margin: 25px 16px;
-    }
-
-    .title {
-      width: 340px;
-
-    }
-
-    .title::before {
-      left: 84px;
-    }
-
-    .title::after {
-      left: 106px;
-    }
-
-    .project_border {
-      width: 350px !important;
-    }
-
-    .ul_border {
-      right: 10px;
-    }
-
-    .project_1_bg {
-
-      right: 7px;
-    }
-
-    .Feedback_color_blur {
-      width: 331px;
-    }
-
-    .Feedback_text pre {
-      font-size: 12px;
-    }
+  .Feedback_text {
+    font-size: 50px;
+    width: 300px;
+    margin-top: 15px;
   }
 
-  @media only screen and (max-width: 400px) {
-    #Project {
-      height: 690px;
-
-    }
-
-    .image_left_border {
-      display: none;
-    }
-
-    .all_news {
-      font-size: 15px;
-    }
+  .Feedback_text pre {
+    font-size: 13px;
   }
+
+  #Feedback {
+    height: 423px;
+  }
+
+  .forms {
+    width: 317px !important;
+    margin-top: 10px !important;
+  }
+
+  .Partners_image {
+    width: 92px;
+    top: 20px;
+  }
+
+  .Partners_image ul {
+    right: 28px;
+    margin-top: 26px;
+  }
+
+  .Partners_border a>img {
+    width: 240px
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  #Feedback,
+  .Feedback_color_blur {
+    height: 370px;
+  }
+
+  .Feedback_color_blur {
+    margin-left: 3%;
+  }
+
+  .Feedback_text {
+    font-size: 30px;
+  }
+
+  .Feedback_text pre {
+    padding: 0px 0px;
+    margin-top: -32px;
+  }
+
+  .header_text {
+    width: 330px;
+    margin-left: 3%;
+    overflow: hidden;
+  }
+
+  .slider_box {
+    margin-left: 5%
+  }
+
+  .main-title {
+    font-size: 35px;
+  }
+
+  .Project_contents h1 {
+    margin-top: -50px;
+  }
+
+  .main-title span {
+    color: #eee77f;
+    width: 250px;
+    font-size: 21px;
+    top: 85px;
+  }
+
+  .main-title span:after {
+    top: 15px;
+    height: 20px;
+    width: 220px;
+  }
+
+  .hero-main-text {
+    height: 235px;
+  }
+
+  .title {
+    width: 360px;
+    margin: 14px auto;
+  }
+
+  .project_border {
+    width: 370px;
+    overflow: hidden;
+    margin: 0px auto;
+  }
+
+  .about-text_1 {
+    width: 388px;
+  }
+
+  .color-white_1 p {
+    font-size: 14px !important;
+    width: 336px;
+  }
+
+  .color-white_1 pre {
+
+    margin-top: 62px;
+  }
+
+  #Partners {
+    width: 330px;
+  }
+
+  .Partners_border a>img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+  .Project_arr_button {
+
+    top: -250px;
+
+  }
+
+  .Project_contents h1 {
+    margin-top: -90px;
+  }
+
+  #Company {
+    width: 99%;
+    overflow: hidden;
+  }
+
+  #ul {
+
+    left: 30%;
+  }
+
+  .company_text {
+    font-size: 20px;
+  }
+
+  #about {
+    width: 99%;
+  }
+
+  .about-text_1 {
+    width: 349px;
+  }
+
+  .company {
+    margin: 25px 16px;
+  }
+
+  .title {
+    width: 340px;
+
+  }
+
+  .title::before {
+    left: 84px;
+  }
+
+  .title::after {
+    left: 106px;
+  }
+
+  .project_border {
+    width: 350px !important;
+  }
+
+  .ul_border {
+    right: 10px;
+  }
+
+  .project_1_bg {
+
+    right: 7px;
+  }
+
+  .Feedback_color_blur {
+    width: 331px;
+  }
+
+  .Feedback_text pre {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #Project {
+    height: 690px;
+
+  }
+
+  .image_left_border {
+    display: none;
+  }
+
+  .all_news {
+    font-size: 15px;
+  }
+}
 
 
 /* navbar */
@@ -1542,4 +1542,26 @@ section.client .section-title {
     font-size: 36px;
     display: block;
   }
+}
+
+.flats {
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: #50afff;
+  border: 2px solid #50afff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 46.5%;
+  position: absolute;
+  font-size: 15px;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
