@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 100%;
   background: #fff;
-  z-index: 9995;
+  z-index: 9999;
 }
 
 #loader::after {
@@ -200,7 +200,7 @@ header .navbar-wrapper .navbar-content i {
 }
 
 .header-overlay_x {
-  background-image: linear-gradient(rgba(1, 4, 45, 0.6), rgba(1, 4, 45, 0.3));
+  background-image: linear-gradient(rgb(73 114 151 / 41%), rgb(255 255 255 / 0%));
   position: absolute;
   top: 0px;
   left: 0px;
@@ -348,7 +348,7 @@ section {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  background-image: linear-gradient(rgba(1, 4, 45, 0.5), rgba(1, 4, 45, 0.2));
+  background-image: linear-gradient(rgb(73 114 151 / 41%), rgb(255 255 255 / 0%));
 
 }
 
