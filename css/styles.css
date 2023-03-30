@@ -306,6 +306,7 @@ section {
 /* Project Section */
 
 #project {
+  background-image: url();
   flex-direction: column;
   height: 1300px;
   z-index: 0;
@@ -381,7 +382,7 @@ section {
 }
 
 .project-button li {
-  transform: translateY(0px);
+  transform: translateX(120%);
   color: #fff;
   font-family: 'bpg_nino_medium_capsregular';
   font-weight: 700;
@@ -390,8 +391,10 @@ section {
   font-weight: 700;
   text-align: center;
   transition: 0.7s;
+  transition-delay: 0s;
   opacity: 0;
   margin-top: 2px;
+ 
 }
 
 .project-button li a {
