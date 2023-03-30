@@ -1546,6 +1546,7 @@ section.client .section-title {
   }
 
   header .navbar-wrapper .navbar-content i {
+    margin-left: 95%;
     font-size: 36px;
     display: block;
   }
