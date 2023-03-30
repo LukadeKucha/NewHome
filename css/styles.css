@@ -753,7 +753,6 @@ section.client .section-title {
   position: absolute;
   background-size: cover;
   background-position: center center;
-  border-radius: 30px;
   z-index: 2;
 }
 
@@ -769,7 +768,6 @@ section.client .section-title {
 
 
 .image_color {
-  border-radius: 30px;
   position: absolute;
   left: 0;
   top: 0;
