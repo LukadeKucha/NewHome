@@ -3,11 +3,10 @@
         height: 796px;
         margin: 3% auto;
         position: relative;
-        border: 5px solid #48cdff;
+        border: 3px solid #48cdff;
         overflow: hidden;
         position: relative;
         z-index: 9;
-        border-radius: 30px;
     }
 
     .card {
@@ -71,7 +70,7 @@
         border-top-left-radius: 40px;
         border-bottom-left-radius: 40px;
         position: absolute;
-        z-index: 9999;
+        z-index: 9995;
         top: 30px;
         left: 30px;
         text-align: center;
