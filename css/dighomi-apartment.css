@@ -69,7 +69,7 @@
         background-color: #fff;
         z-index: 9999;
         text-align: center;
-        color: #00aeef;
+        color: #589dbf;
         line-height: 45px;
         font-size: 16px;
         display: none;
@@ -82,7 +82,7 @@
     .floor_R_namber {
         width: 100%;
         height: 35px;
-        background-color: #00aeef;
+        background-color: #589dbf;
         color: #fae499;
         position: absolute;
         top: -16px;
