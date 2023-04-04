@@ -306,7 +306,7 @@ section {
 /* Project Section */
 
 #project {
-  background-image: url('../img/bg.png');
+  background-image: url('../img/BG.png');
   flex-direction: column;
   height: 1300px;
   z-index: 0;
