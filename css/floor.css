@@ -37,9 +37,10 @@ a {
 }
 
 .Room_info {
+    padding: 10px;
     position: fixed;
     width: 251px;
-    height: 80px;
+    height: 120px;
     background-color: #fff;
     -webkit-box-shadow: 0 0 45px 0 rgb(0 0 0 / 25%);
     box-shadow: 0 0 45px 0 rgb(0 0 0 / 25%);
@@ -53,7 +54,7 @@ a {
 }
 
 .Room_info_tex {
-    margin-top: 90px;
+    /* margin-top: 90px; */
     position: absolute;
     font-size: 16px;
     width: 100%;
@@ -82,14 +83,14 @@ b {
     position: absolute;
     text-align: center;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 17px;
     color: #50afff;
     font-family: "Regular2";
 
 }
 
 .room_kv_bg {
-    width: 120px;
+    width: 90%;
     padding: 5px 10px;
     height: 18px;
     margin: 1px auto;
