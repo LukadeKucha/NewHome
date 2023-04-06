@@ -36,6 +36,14 @@ function Floor_namber(el) {
 		document.querySelector(".room_info").innerHTML = room;
 		document.querySelector(".room_kv").innerHTML = kv;
 	}
+	else if(kvs ==='4')
+	{
+		document.querySelector(".Room_info").style.height = '120px';
+		document.querySelector(".Room_info_tex").innerHTML = 'სასტუმრო';
+		document.querySelector(".Room_info_tex").style.display = 'block';
+		document.querySelector(".room_info").innerHTML = room;
+		document.querySelector(".room_kv").innerHTML = kv;
+	}
 	else {
 		document.querySelector(".Room_info").style.height = '80px';
 		document.querySelector(".room_info").innerHTML = room;
