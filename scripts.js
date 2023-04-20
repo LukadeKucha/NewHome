@@ -210,13 +210,16 @@ burger.addEventListener('click', () => {
 })
 
 // Navbar color change
+const txt = document.querySelectorAll('header .navbar-wrapper .navbar-content .nav-links li a');
 const navbar = document.querySelector('.navbar-wrapper');
 const projectsection = document.getElementById('project-hero');
 window.addEventListener('scroll', function () {
     if (window.scrollY > projectsection.offsetTop) {
         navbar.classList.add('bg-color-change');
+        txt.classList.add('txt-color-change');
     }
     else {
+        txt.classList.remove('txt-color-change');
         navbar.classList.remove('bg-color-change');
     }
 })
