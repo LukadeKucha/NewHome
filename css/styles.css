@@ -54,6 +54,10 @@ header {
   background-color: #e1e1e1;
 }
 
+.txtchange.txt-color-change {
+  color: white;
+}
+
 header .navbar-wrapper {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   max-width: 100%;
@@ -88,7 +92,7 @@ header .navbar-wrapper .navbar-content .nav-links li {
 
 header .navbar-wrapper .navbar-content .nav-links li a {
   text-decoration: none;
-  color: #589dbf;
+  color: white;
   margin: 0 1.25rem;
   font-weight: 500;
   font-size: 1.4rem;
