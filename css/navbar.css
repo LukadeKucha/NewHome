@@ -7,7 +7,7 @@ header {
 }
 
 .navbar-wrapper.bg-color-change {
-  background-color: #e1e1e1;
+  background-color: #425a78;
 }
 
 header .navbar-wrapper {
@@ -44,7 +44,7 @@ header .navbar-wrapper .navbar-content .nav-links li {
 
 header .navbar-wrapper .navbar-content .nav-links li a {
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 0 1.25rem;
   font-weight: 500;
   font-size: 1.4rem;
