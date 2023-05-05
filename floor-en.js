@@ -31,25 +31,25 @@ function Floor_namber(el) {
 		document.querySelector(".Room_info_tex").innerHTML = 'Sold';
 		document.querySelector(".room_info").innerHTML = room;
 		document.querySelector(".room_kv").innerHTML = kv;
+		document.querySelector(".room_kv2").innerHTML = 'Outer: ' + kv2;
+		document.querySelector(".room_kv3").innerHTML = 'Inner: ' + kv3;
 	}
-	else if(kvs == '5')
-	{
+	else if (kvs == '5') {
 		document.querySelector(".Room_info").style.height = '120px';
 		document.querySelector(".Room_info_tex").innerHTML = 'Office';
 		document.querySelector(".Room_info_tex").style.display = 'block';
 		document.querySelector(".room_info").innerHTML = room;
-		document.querySelector(".room_kv").innerHTML =  kv;
+		document.querySelector(".room_kv").innerHTML = kv;
 		document.querySelector(".room_kv2").innerHTML = 'Outer: ' + kv2;
-		document.querySelector(".room_kv3").innerHTML ='Inner: ' + kv3;
+		document.querySelector(".room_kv3").innerHTML = 'Inner: ' + kv3;
 	}
-	else if(kvs == '6')
-	{
+	else if (kvs == '6') {
 		document.querySelector(".Room_info").style.height = '120px';
 		document.querySelector(".room_info").innerHTML = room + 'a';
 		document.querySelector(".Room_info_tex").style.display = 'none';
-		document.querySelector(".room_kv").innerHTML =  kv;
+		document.querySelector(".room_kv").innerHTML = kv;
 		document.querySelector(".room_kv2").innerHTML = 'Outer: ' + kv2;
-		document.querySelector(".room_kv3").innerHTML ='Inner: ' + kv3;
+		document.querySelector(".room_kv3").innerHTML = 'Inner: ' + kv3;
 	}
 	else if (kvs == '3') {
 		document.querySelector(".Room_info").style.height = '120px';
@@ -58,23 +58,22 @@ function Floor_namber(el) {
 		document.querySelector(".room_info").innerHTML = room;
 		document.querySelector(".room_kv").innerHTML = kv;
 	}
-	else if(kvs ==='4')
-	{
+	else if (kvs === '4') {
 		document.querySelector(".Room_info").style.height = '120px';
 		document.querySelector(".Room_info_tex").innerHTML = 'Hotel';
 		document.querySelector(".Room_info_tex").style.display = 'block';
 		document.querySelector(".room_info").innerHTML = room;
-		document.querySelector(".room_kv").innerHTML =  kv;
+		document.querySelector(".room_kv").innerHTML = kv;
 		document.querySelector(".room_kv2").innerHTML = 'Outer: ' + kv2;
-		document.querySelector(".room_kv3").innerHTML ='Inner: ' + kv3;
+		document.querySelector(".room_kv3").innerHTML = 'Inner: ' + kv3;
 	}
-	else if(kvs==='1') {
+	else if (kvs === '1') {
 		document.querySelector(".Room_info").style.height = '120px';
 		document.querySelector(".room_info").innerHTML = room;
 		document.querySelector(".Room_info_tex").style.display = 'none';
-		document.querySelector(".room_kv").innerHTML =  kv;
+		document.querySelector(".room_kv").innerHTML = kv;
 		document.querySelector(".room_kv2").innerHTML = 'Outer: ' + kv2;
-		document.querySelector(".room_kv3").innerHTML ='Inner: ' + kv3;
+		document.querySelector(".room_kv3").innerHTML = 'Inner: ' + kv3;
 	}
 
 }

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../../../css/navbar.css">
+  <link rel="stylesheet" href="../../../css/project1.css">
+  <link rel="stylesheet" href="../../../css/ortachala-apartment.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <section id="project-hero">
+    <header>
+      <div class="navbar-wrapper">
+        <nav class="navbar-content">
+          <a href="../../../" class="logo"><img style="height: 4.5rem;" src="../../../img/logo.png"></a>
+          <ul class="nav-links">
+            <li><a href="../../../">მთავარი</a></li>
+            <li><a href="../../../#projects">პროექტები</a></li>
+
+            <li><a href="../../../#about">ჩვენს შესახებ</a></li>
+            <li><a href="../../../#contact">კონტაქტი</a></li>
+            <li><a class="txtchange" href="../../../en/pages/mtatsminda/apartment/">EN</a></li>
+          </ul>
+          <i class='bx bx-menu' id="burger"></i>
+        </nav>
+      </div>
+    </header>
+    </div>
+  </section>
+  <section id="block" style="width: 1125px; height: 633px;">
+    <img width="%" height="%" src="../../../img/mtatsminda/gare.jpg">
+
+    <a href="./floor-1/index.html">
+      <div class="faza" data-foo="1" data-title="სართული" onmousemove="Floor_namber(this)"
+        style="clip-path: polygon(28% 87%, 65% 86%, 65% 91%, 43% 91%, 28% 91%);"></div>
+    </a>
+    <a href="./floor-2/index.html">
+      <div class="faza" data-foo="2" data-title="სართული" onmousemove="Floor_namber(this)"
+        style="clip-path: polygon(28% 83%, 45% 83%, 64% 82%, 64% 86%, 45% 87%, 28% 87%);"></div>
+    </a>
+    <a href="./floor-3/index.html">
+      <div class="faza" data-foo="3" data-title="სართული" onmousemove="Floor_namber(this)"
+        style="clip-path: polygon(28% 79%, 43% 79%, 65% 77%, 65% 82%, 34% 83%, 28% 83%);"></div>
+    </a>
+    <a href="./floor-4/index.html">
+      <div class="faza" data-foo="4" data-title="სართული" onmousemove="Floor_namber(this)"
+        style="clip-path: polygon(28% 76%, 35% 75%, 41% 76%, 49% 75%, 59% 74%, 59% 73%, 64% 72%, 64% 77%, 59% 78%, 49% 79%, 49% 79%, 41% 80%, 35% 79%, 28% 80%);">
+      </div>
+    </a>
+    <a href="./floor-5/index.html">
+      <div class="faza" data-foo="5" data-title="სართული" onmousemove="Floor_namber(this)"
+        style="clip-path: polygon(28% 72%, 35% 71%, 40% 72%, 46% 71%, 50% 70%, 59% 69%, 65% 68%, 65% 73%, 59% 74%, 55% 74%, 50% 75%, 44% 76%, 40% 76%, 35% 75%, 28% 76%);">
+      </div>
+    </a>
+    <a href="./floor-6/index.html">
+      <div class="faza" data-foo="6" data-title="სართული" onmousemove="Floor_namber(this)"
+        style="clip-path: polygon(28% 68.5%, 35% 67%, 40% 68%, 49% 66.5%, 58% 65.5%, 58% 64.5%, 65% 63.5%, 65% 68%, 59% 69%, 49% 71%, 40% 72.5%, 36% 71.5%, 28% 72.5%);">
+      </div>
+    </a>
+
+    <div id="floor_R" class="floor_R" style="left: 768px; top: 468px; display: none;">სართული<p class="floor_R_namber">
+        2</p>
+    </div>
+
+  </section>
+
+  <!-- <section class="rooms">
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-6.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">7.0</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">48.5</span></li>
+          <li>საერთო ფართი: <span class="floor">55.5</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">2</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-7.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">5.0</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">44.1</span></li>
+          <li>საერთო ფართი: <span class="floor">49.1</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">2</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+
+
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-8.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">6.1</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">45.7</span></li>
+          <li>საერთო ფართი: <span class="floor">51.8</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">2</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-1.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">8.5</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">58</span></li>
+          <li>საერთო ფართი: <span class="floor">66.5</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">3</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-2.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">11.7</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">62.5</span></li>
+          <li>საერთო ფართი: <span class="floor">74.2</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">3</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-3.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">8.2</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">68.2</span></li>
+          <li>საერთო ფართი: <span class="floor">76.4</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">3</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-4.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">6.3</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">59.5</span></li>
+          <li>საერთო ფართი: <span class="floor">65.8</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">3</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+    <a class="card" href="./floor-3/index.html">
+      <div class="card-img">
+        <img src="../../../img/Ortachala/Room-5.png" alt="card image">
+      </div>
+      <div class="card-info">
+        <ul>
+          <li>საზაფხულე ფართი: <span class="square-meters">6.2</span></li>
+          <li>საცხოვრებელი ფართი: <span class="price">44.8</span></li>
+          <li>საერთო ფართი: <span class="floor">51.0</span></li>
+          <li>ოთახების რაოდენობა: <span class="room-numbers">2</span></li>
+        </ul>
+      </div>
+      </div>
+    </a>
+
+  </section> -->
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $(".Project").click(function () {
+        $(".Project-ul").toggle(300);
+      });
+
+      $(".faza").hover(function () {
+        $('.floor_R').css("display", "flex");
+
+      }, function () {
+        $('.floor_R').css("display", "none");
+      });
+      var cursor_room = document.getElementById('floor_R');
+      document.addEventListener("mousemove", function (a) {
+        var x = a.clientX;
+        var y = a.clientY;
+        cursor_room.style.left = x - 212 + 'px'
+        cursor_room.style.top = y - 30 + 'px'
+
+      });
+    });
+
+    function Floor_namber(el) {
+      var elItem = el.dataset.foo;
+      var elItemr = el.dataset.title;
+      document.querySelector(".floor_R").innerHTML = elItemr + '<p class="floor_R_namber"></p>';
+      document.querySelector(".floor_R_namber").innerHTML = elItem;
+      document.querySelector(".About_the_project").style.display = 'none';
+    }
+
+    // Navbar
+
+    const burger = document.getElementById('burger');
+    const navLinks = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    })
+
+    // Navbar color change
+    const navbar = document.querySelector('.navbar-wrapper');
+    const section = document.getElementById('project');
+    const projectsection = document.getElementById('project-hero');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > projectsection.offsetTop) {
+        navbar.classList.add('bg-color-change');
+      }
+      else {
+        navbar.classList.remove('bg-color-change');
+      }
+    })
+    $('.carousel-client').bxSlider({
+      auto: true,
+      slideWidth: 234,
+      minSlides: 2,
+      maxSlides: 5,
+      controls: false
+    });
+
+  </script>
+</body>
+
+</html>

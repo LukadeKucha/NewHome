@@ -691,7 +691,7 @@ form.contFrm {
   cursor: pointer;
   width: 100%;
   max-width: 200px;
-  background-color: transparent;
+  background-color: white;
   border: 1.5px solid black;
 
 }
