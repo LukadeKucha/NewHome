@@ -147,7 +147,7 @@
                 </li>
                 <li></li>
                 <li>
-                  <a href="./pages/mtatsminda/aparment">
+                  <a href="./pages/mtatsminda/apartment/index.html">
                     აირჩიეთ ბინა
                   </a>
                 </li>
@@ -287,7 +287,7 @@
         </div>
 
         <div class="col-md-6">
-          <form action="#" class="contFrm" method="POST">
+          <form action="sendemail.php" class="contFrm" method="POST" onsubmit="return validateForm();">
             <div class="row">
               <div class="col-sm-6">
                 <input type="text" name="name" placeholder="სახელი" class="inptFld" required />
@@ -305,7 +305,7 @@
               </div>
 
               <div class="col-12">
-                <textarea class="inptFld" rows="" cols="" placeholder="მესიჯი..." required></textarea>
+                <textarea class="inptFld" rows="" cols="" name="message" placeholder="მესიჯი..." required></textarea>
               </div>
 
               <div class="col-12" style="display: flex;">
@@ -327,6 +327,26 @@
 
     </div>
   </section>
+  <script>
+    function validateForm() {
+      var name = document.forms["contactForm"]["name"].value;
+      var email = document.forms["contactForm"]["email"].value;
+      var phone = document.forms["contactForm"]["phone"].value;
+      var sub = document.forms["contactForm"]["sub"].value;
+      var message = document.forms["contactForm"]["message"].value;
+      var emailRegex = /\S+@\S+\.\S+/;
+
+      if (name == "" || email == "" || phone == "" || sub == "" || message == "") {
+        alert("Please fill out all required fields.");
+        return false;
+      }
+
+      if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
+        return false;
+      }
+    }
+  </script>
 
   <script>
 
